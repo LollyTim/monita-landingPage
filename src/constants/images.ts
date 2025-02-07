@@ -1,4 +1,3 @@
-// Import all images
 import monitaLogo1 from "../assets/icons/monitaLogo1.svg";
 import monitaLogo from "../assets/icons/monita-logo.svg";
 import bgImage from "../assets/images/Monita 1.png";
@@ -14,8 +13,11 @@ import billIcon from "../assets/icons/billIcon.svg";
 import cardIcon from "../assets/icons/cardIcon.svg";
 import eSimIcon from "../assets/icons/eSimIcon.svg";
 import featBG from "../assets/images/featureBlurBG.png";
+import quoteIcon from "../assets/icons/quoteIcon.svg";
+import testimoBg from "../assets/images/TestimoBg.png";
+import bRifhtIcon from "../assets/icons/arrow-small-right.svg";
+import bLeftIcon from "../assets/icons/arrow-small-left.svg";
 
-// Create an images object
 export const images = {
   logo: {
     primary: monitaLogo1,
@@ -34,14 +36,16 @@ export const images = {
     eSimIcon,
     billIcon,
     cardIcon,
+    quoteIcon,
+    bLeftIcon,
+    bRifhtIcon,
   },
   image: {
     featBG,
     bgImage: bgImage,
     heroImage,
+    testimoBg,
   },
-  // Add more categories as new assets become available
 } as const;
 
-// Type for type safety
 export type ImageAssets = typeof images;

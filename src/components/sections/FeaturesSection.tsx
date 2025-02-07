@@ -16,7 +16,7 @@ const FeaturesSection = () => {
                         </p>
                     </div>
 
-                    <h1 className='text-[32px] lg:text-[64px] leading-[1.15] lg:leading-[69px] text-center w-[360px] sm:max-w-[400px] lg:max-w-[680px] font-MuseoModerno font-bold px-4'
+                    <h1 className='text-[32px] lg:text-[64px] leading-[1.15] lg:leading-[69px] text-center w-[360px] sm:w-[400px] lg:w-[680px] xl:w- font-MuseoModerno font-bold px-4'
                         style={{
                             background: 'linear-gradient(97.46deg, #FFFFFF 4.79%, #FFF5D5 25.87%, #ECFFB9 47.72%, #CEEF0A 74.55%)',
                             WebkitBackgroundClip: 'text',
@@ -32,7 +32,7 @@ const FeaturesSection = () => {
                 </div>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 w-full mt-20 mb-20 px-4 lg:px-0'>
                     {/* Bill Payment Card - Full height on left */}
-                    <div className='bg-[#0E0E0E] border border-[#282828] rounded-[20px] py-6 lg:py-8 px-4 lg:px-6 h-[600px] lg:h-[900px] lg:w-[620px] w-full'
+                    <div className='bg-[#0E0E0E] border border-[#282828] rounded-[20px] py-6 lg:py-8 px-4 lg:px-6 h-[540px] lg:h-[900px] lg:w-[620px] w-full'
                         style={{
                             backgroundImage: `url(${images.image.featBG})`,
                             backgroundSize: 'cover',
@@ -79,9 +79,9 @@ const FeaturesSection = () => {
                                     <span className='text-[#CEEF08] text-[10px] lg:text-xs px-3 lg:px-4 py-1.5 lg:py-2 rounded-full border border-[#CEEF08]'>Seamless Connectivity</span>
                                 </div>
                                 <img src={images.icon.eSimIcon} alt="esim icon" className='h-6 w-6 lg:h-8 lg:w-8 lg:mt-6 mt-2' />
-                                <div className='space-y-3 lg:space-y-4'>
-                                    <h3 className='text-white text-xl lg:text-3xl font-bold'>eSim</h3>
-                                    <p className='text-white text-xs lg:text-base leading-relaxed w-full lg:w-[480px]'>
+                                <div className='space-y-2 lg:space-y-4'>
+                                    <h3 className='text-white text-lg lg:text-3xl font-bold'>eSim</h3>
+                                    <p className='text-white text-[11px] lg:text-base leading-relaxed w-[240px] lg:w-[480px]'>
                                         Monita ensures seamless connectivity with our eSIM technology. Users can activate a digital SIM instantly, enjoy quick setup, and stay connected securely wherever they go.
                                     </p>
                                 </div>
@@ -101,10 +101,10 @@ const FeaturesSection = () => {
                             <div className='flex flex-row items-center justify-between h-full'>
                                 <div className='w-[55%] space-y-4 lg:space-y-6'>
                                     <span className='text-[#CEEF08] text-[10px] lg:text-xs px-3 lg:px-4 py-1.5 lg:py-2 rounded-full border border-[#CEEF08]'>Global Payments</span>
-                                    <img src={images.icon.cardIcon} alt="card icon" className='h-6 w-6 lg:h-8 lg:w-8 lg:mt-6 mt-2' />
-                                    <div className='space-y-3 lg:space-y-4'>
-                                        <h3 className='text-white text-xl lg:text-3xl font-bold'>One Card</h3>
-                                        <p className='text-white text-xs lg:text-base leading-relaxed'>
+                                    <img src={images.icon.cardIcon} alt="card icon" className='h-6 w-6 lg:h-8 lg:w-8 lg:mt-6 mt-4' />
+                                    <div className='space-y-2 lg:space-y-4'>
+                                        <h3 className='text-white text-lg lg:text-3xl font-bold'>One Card</h3>
+                                        <p className='text-white text-[11px] lg:text-base leading-relaxed'>
                                             A Naira card supporting both local and international payments with virtual and physical options.
                                         </p>
                                     </div>

@@ -1,14 +1,16 @@
 import NavBar from "./components/common/NavBar";
 import FeaturesSection from "./components/sections/FeaturesSection";
 import HeroSection from "./components/sections/HeroSection";
+import TestimonialSection from "./components/sections/TestimonialSection";
 
 const App = () => {
   return (
-    <div className="bg-[#000000] h-screen">
+    <div className=" h-full w-full bg-[#000000]">
       {/* <div></div> */}
       <NavBar />
       <HeroSection />
       <FeaturesSection />
+      <TestimonialSection />
     </div>
   );
 };
