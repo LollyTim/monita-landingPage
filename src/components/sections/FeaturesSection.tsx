@@ -16,7 +16,7 @@ const FeaturesSection = () => {
                         </p>
                     </div>
 
-                    <h1 className='text-[32px] lg:text-[64px] leading-[1.15] lg:leading-[69px] text-center w-full max-w-[330px] sm:max-w-[400px] lg:max-w-[680px] font-MuseoModerno font-bold px-4'
+                    <h1 className='text-[32px] lg:text-[64px] leading-[1.15] lg:leading-[69px] text-center w-[360px] sm:max-w-[400px] lg:max-w-[680px] font-MuseoModerno font-bold px-4'
                         style={{
                             background: 'linear-gradient(97.46deg, #FFFFFF 4.79%, #FFF5D5 25.87%, #ECFFB9 47.72%, #CEEF0A 74.55%)',
                             WebkitBackgroundClip: 'text',
