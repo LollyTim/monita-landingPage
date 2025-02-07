@@ -4,21 +4,31 @@ const FeaturesSection = () => {
     return (
         <div className=' w-full bg-[#000000]'>
             <div className=' w-[90%] xl:max-w-7xl mx-auto justify-center items-center flex flex-col '>
-                <div className=' flex flex-col justify-center items-center gap-3'>
-                    <div className=' flex flex-row gap-1 justify-center items-center mx-auto mt-10'>
-                        <img src={images.icon.tundIcon} alt="lightning icon" className=' h-4 w-4' />
-                        <p className=' text-[12px] text-[#CEEF08] uppercase font-bold'>Features</p>
+                <div className='flex flex-col justify-center items-center gap-4 lg:gap-6 px-4 lg:px-0'>
+                    <div className='flex flex-row gap-2 justify-center items-center mx-auto mt-8 lg:mt-10'>
+                        <img
+                            src={images.icon.tundIcon}
+                            alt="lightning icon"
+                            className='h-3 w-3 lg:h-4 lg:w-4'
+                        />
+                        <p className='text-[10px] lg:text-[12px] text-[#CEEF08] uppercase font-bold tracking-wider'>
+                            Features
+                        </p>
                     </div>
-                    <h1 className=' text-[60px] leading-[69px] text-center w-[591px] font-MuseoModerno font-bold'
+
+                    <h1 className='text-[32px] lg:text-[64px] leading-[1.15] lg:leading-[69px] text-center w-full max-w-[330px] sm:max-w-[400px] lg:max-w-[680px] font-MuseoModerno font-bold px-4'
                         style={{
                             background: 'linear-gradient(97.46deg, #FFFFFF 4.79%, #FFF5D5 25.87%, #ECFFB9 47.72%, #CEEF0A 74.55%)',
                             WebkitBackgroundClip: 'text',
                             WebkitTextFillColor: 'transparent',
                             backgroundClip: 'text'
-                        }}>Tailor-made to your
-                        spending taste</h1>
-                    <p className='w-[485px] text-sm text-white leading-[24px] text-center font-medium'>It's finally fast, secure and fully digital. Exactly how it should be.</p>
+                        }}>
+                        Tailor-made to your spending taste
+                    </h1>
 
+                    <p className='text-xs lg:text-sm text-white leading-[20px] lg:leading-[24px] text-center font-medium w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[485px] px-4'>
+                        It's finally fast, secure and fully digital. Exactly how it should be.
+                    </p>
                 </div>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 w-full mt-20 mb-20 px-4 lg:px-0'>
                     {/* Bill Payment Card - Full height on left */}
