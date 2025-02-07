@@ -34,7 +34,7 @@ const HeroSection = () => {
                         </p>
                         <div className=" w-full flex flex-row gap-5 justify-start items-center mt-7">
 
-                            <div className=" flex flex-row bg-white py-3 lg:gap-x-2 lg:py-2 gap-x-4 lg:px-3 px-2 rounded-full justify-center items-center xl:w-[180px] w-[130px] xl:h-fit h-[50px] ">
+                            <div className=" flex flex-row bg-white py-3 lg:gap-x-2 lg:py-2 gap-x-2 lg:px-3 px-2 rounded-full justify-center items-center xl:w-[180px] w-[130px] xl:h-fit h-[50px] ">
                                 <p className=" text-black xl:text-lg text-[11px] font-medium">Get Started</p>
                                 <div className=" xl:w-[50px] xl:h-[50px] w-[34px] h-[34px] bg-black rounded-full justify-center items-center flex flex-col">
                                     <img src={images.icon.arrowRight} alt="" className="w-[10px] h-[10px]" />
