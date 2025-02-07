@@ -68,7 +68,7 @@ const FeaturesSection = () => {
                                 <div>
                                     <span className='text-[#CEEF08] text-[10px] lg:text-xs px-3 lg:px-4 py-1.5 lg:py-2 rounded-full border border-[#CEEF08]'>Seamless Connectivity</span>
                                 </div>
-                                <img src={images.icon.eSimIcon} alt="esim icon" className='h-6 w-6 lg:h-8 lg:w-8 mt-6' />
+                                <img src={images.icon.eSimIcon} alt="esim icon" className='h-6 w-6 lg:h-8 lg:w-8 lg:mt-6 mt-2' />
                                 <div className='space-y-3 lg:space-y-4'>
                                     <h3 className='text-white text-xl lg:text-3xl font-bold'>eSim</h3>
                                     <p className='text-white text-xs lg:text-base leading-relaxed w-full lg:w-[480px]'>
@@ -91,7 +91,7 @@ const FeaturesSection = () => {
                             <div className='flex flex-row items-center justify-between h-full'>
                                 <div className='w-[55%] space-y-4 lg:space-y-6'>
                                     <span className='text-[#CEEF08] text-[10px] lg:text-xs px-3 lg:px-4 py-1.5 lg:py-2 rounded-full border border-[#CEEF08]'>Global Payments</span>
-                                    <img src={images.icon.cardIcon} alt="card icon" className='h-6 w-6 lg:h-8 lg:w-8 mt-8' />
+                                    <img src={images.icon.cardIcon} alt="card icon" className='h-6 w-6 lg:h-8 lg:w-8 lg:mt-6 mt-2' />
                                     <div className='space-y-3 lg:space-y-4'>
                                         <h3 className='text-white text-xl lg:text-3xl font-bold'>One Card</h3>
                                         <p className='text-white text-xs lg:text-base leading-relaxed'>
