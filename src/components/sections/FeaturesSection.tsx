@@ -9,7 +9,7 @@ const FeaturesSection = () => {
                         <img src={images.icon.tundIcon} alt="lightning icon" className=' h-4 w-4' />
                         <p className=' text-[12px] text-[#CEEF08] uppercase font-bold'>Features</p>
                     </div>
-                    <h1 className=' text-[60px] leading-[59px] text-center w-[591px] font-bold'
+                    <h1 className=' text-[60px] leading-[69px] text-center w-[591px] font-MuseoModerno font-bold'
                         style={{
                             background: 'linear-gradient(97.46deg, #FFFFFF 4.79%, #FFF5D5 25.87%, #ECFFB9 47.72%, #CEEF0A 74.55%)',
                             WebkitBackgroundClip: 'text',

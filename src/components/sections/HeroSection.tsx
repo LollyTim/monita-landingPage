@@ -18,7 +18,7 @@ const HeroSection = () => {
                     </div>
                     <div className=" ">
                         <h1
-                            className="font-bold xl:text-[80px] md:text-[60px] text-[40px] xl:leading-[98px] md:leading-[60px] leading-[40px] text-start mt-6"
+                            className="font-bold xl:text-[80px] font-MuseoModerno md:text-[60px] text-[40px] xl:leading-[98px] md:leading-[60px] leading-[40px] text-start mt-6"
                             style={{
                                 background: 'linear-gradient(97.46deg, #FFFFFF 4.79%, #FFF5D5 25.87%, #ECFFB9 47.72%, #CEEF0A 74.55%)',
                                 WebkitBackgroundClip: 'text',
