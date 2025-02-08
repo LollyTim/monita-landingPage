@@ -1,4 +1,5 @@
 import NavBar from "./components/common/NavBar";
+import ComplianceSection from "./components/sections/ComplianceSection";
 import FeaturesSection from "./components/sections/FeaturesSection";
 import HeroSection from "./components/sections/HeroSection";
 import HowItWorksSection from "./components/sections/HowItWorksSection";
@@ -13,6 +14,7 @@ const App = () => {
       <FeaturesSection />
       <TestimonialSection />
       <HowItWorksSection />
+      <ComplianceSection />
     </div>
   );
 };

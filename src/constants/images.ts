@@ -23,6 +23,9 @@ import connsectorLine2 from "../assets/icons/Connector line2.svg";
 import cardScreenMockup from "../assets/images/cardScreenMockup.png";
 import verifyScreenMockup from "../assets/images/verifyMockup.png";
 import fundScreenMockup from "../assets/images/fundWalletMockup.png";
+import greenBg from "../assets/images/greenBg.png";
+import shildImage from "../assets/images/Shield.png";
+import thundIconWhite from "../assets/icons/thundIconW.svg";
 
 export const images = {
   logo: {
@@ -40,6 +43,7 @@ export const images = {
     fundScreenMockup,
   },
   icon: {
+    thundIconWhite,
     connectorLine1,
     connsectorLine2,
     arrowRight,
@@ -54,8 +58,10 @@ export const images = {
   },
   image: {
     featBG,
+    shildImage,
     bgImage: bgImage,
     heroImage,
+    greenBg,
     testimoBg,
   },
 } as const;
