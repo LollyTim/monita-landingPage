@@ -20,6 +20,9 @@ import bLeftIcon from "../assets/icons/arrow-small-left.svg";
 import signupMockup from "../assets/images/signupMockup.png";
 import connectorLine1 from "../assets/icons/Connector line1.svg";
 import connsectorLine2 from "../assets/icons/Connector line2.svg";
+import cardScreenMockup from "../assets/images/cardScreenMockup.png";
+import verifyScreenMockup from "../assets/images/verifyMockup.png";
+import fundScreenMockup from "../assets/images/fundWalletMockup.png";
 
 export const images = {
   logo: {
@@ -32,6 +35,9 @@ export const images = {
     featMockup,
     cardMockup,
     signupMockup,
+    cardScreenMockup,
+    verifyScreenMockup,
+    fundScreenMockup,
   },
   icon: {
     connectorLine1,

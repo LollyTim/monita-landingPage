@@ -44,7 +44,7 @@ const HowItWorksSection = () => {
 
                     <h2 className="text-white text-[16px] font-medium relative z-10">Step 1</h2>
                     <h1 className="text-white text-[20px] lg:text-[24px] font-medium relative z-10">Enter your Information</h1>
-                    <p className="text-white font-normal text-[14px] lg:text-[16px] w-full lg:w-[300px] relative z-10">
+                    <p className="text-white font-normal text-[14px] lg:text-[16px] w-full lg:w-[320px] relative z-10 h-[86px]">
                         Provide your email and phone number, then verify your phone number with an OTP.
                     </p>
                     <div
@@ -79,6 +79,9 @@ const HowItWorksSection = () => {
                 </div>
 
                 {/* Connector Line */}
+                <div className="hidden lg:block absolute xl:left-[900px] lg:left-[750px] transform -translate-x-1/2  z-10 w-[27.6%] xl:w-[22.7%] max-w-[800px]">
+                    <img src={images.icon.connectorLine1} alt="Connector Line" className="h-auto w-[76px]" />
+                </div>
                 <div className="hidden lg:block absolute xl:left-[900px] lg:left-[750px] transform -translate-x-1/2 mt-[650px] z-10 w-[80%] max-w-[800px]">
                     <img src={images.icon.connsectorLine2} alt="Connector Line" className="w-[70%] h-auto" />
                 </div>
@@ -94,9 +97,9 @@ const HowItWorksSection = () => {
                     />
 
                     <h2 className="text-white text-[16px] font-medium relative z-10">Step 2</h2>
-                    <h1 className="text-white text-[20px] lg:text-[24px] font-medium relative z-10">Enter your Information</h1>
-                    <p className="text-white font-normal text-[14px] lg:text-[16px] w-full lg:w-[300px] relative z-10">
-                        Provide your email and phone number, then verify your phone number with an OTP.
+                    <h1 className="text-white text-[20px] lg:text-[24px] font-medium relative z-10">Complete Verification</h1>
+                    <p className="text-white font-normal text-[14px] lg:text-[16px] w-full lg:w-[320px] relative z-10 h-[86px]">
+                        Choose a username and password. Submit your BVN and KYC details, complete face and ID verification, and set up a PIN for account management.
                     </p>
                     <div
                         className="w-full lg:w-[356px] h-[200px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)]"
@@ -112,7 +115,7 @@ const HowItWorksSection = () => {
                         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
                         <div className="mx-auto relative z-10">
-                            <img src={images.mockups.signupMockup} alt="" className="flex mt-[450px] w-full lg:w-[300px]" />
+                            <img src={images.mockups.verifyScreenMockup} alt="" className="flex mt-[450px] w-full lg:w-[300px]" />
                         </div>
 
                         {/* Grid overlay */}
@@ -142,10 +145,10 @@ const HowItWorksSection = () => {
                         }}
                     />
 
-                    <h2 className="text-white text-[16px] font-medium relative z-10">Step 1</h2>
-                    <h1 className="text-white text-[20px] lg:text-[24px] font-medium relative z-10">Enter your Information</h1>
-                    <p className="text-white font-normal text-[14px] lg:text-[16px] w-full lg:w-[300px] relative z-10">
-                        Provide your email and phone number, then verify your phone number with an OTP.
+                    <h2 className="text-white text-[16px] font-medium relative z-10">Step 3</h2>
+                    <h1 className="text-white text-[20px] lg:text-[24px] font-medium relative z-10">Fund Your Wallet</h1>
+                    <p className="text-white font-normal text-[14px] lg:text-[16px] w-full lg:w-[320px] relative z-10 h-[86px]">
+                        Add funds to your account to start using Monita’s features.
                     </p>
                     <div
                         className="w-full lg:w-[356px] h-[200px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)]"
@@ -161,7 +164,7 @@ const HowItWorksSection = () => {
                         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
                         <div className="mx-auto relative z-10">
-                            <img src={images.mockups.signupMockup} alt="" className="flex mt-[450px] w-full lg:w-[300px]" />
+                            <img src={images.mockups.fundScreenMockup} alt="" className="flex mt-[450px] w-full lg:w-[300px]" />
                         </div>
 
                         {/* Grid overlay */}
@@ -178,6 +181,10 @@ const HowItWorksSection = () => {
                     </div>
                 </div>
 
+                <div className="hidden lg:block absolute xl:left-[900px] lg:left-[750px] transform -translate-x-1/2  z-10 w-[27.6%] xl:w-[22.7%] max-w-[800px]">
+                    <img src={images.icon.connectorLine1} alt="Connector Line" className="h-auto w-[76px]" />
+                </div>
+
 
 
                 {/* Step 4 */}
@@ -190,10 +197,10 @@ const HowItWorksSection = () => {
                         }}
                     />
 
-                    <h2 className="text-white text-[16px] font-medium relative z-10">Step 2</h2>
-                    <h1 className="text-white text-[20px] lg:text-[24px] font-medium relative z-10">Enter your Information</h1>
-                    <p className="text-white font-normal text-[14px] lg:text-[16px] w-full lg:w-[300px] relative z-10">
-                        Provide your email and phone number, then verify your phone number with an OTP.
+                    <h2 className="text-white text-[16px] font-medium relative z-10">Step 4</h2>
+                    <h1 className="text-white text-[20px] lg:text-[24px] font-medium relative z-10">Request Your One Card</h1>
+                    <p className="text-white font-normal text-[14px] lg:text-[16px] w-full lg:w-[320px] relative z-10 h-[86px]">
+                        Access the dashboard, navigate to the Card menu, and apply for a One Card supporting both local and international payments with virtual and physical options.
                     </p>
                     <div
                         className="w-full lg:w-[356px] h-[200px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)]"
@@ -209,7 +216,7 @@ const HowItWorksSection = () => {
                         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
                         <div className="mx-auto relative z-10">
-                            <img src={images.mockups.signupMockup} alt="" className="flex mt-[450px] w-full lg:w-[300px]" />
+                            <img src={images.mockups.cardScreenMockup} alt="" className="flex mt-[450px] w-full lg:w-[300px]" />
                         </div>
 
                         {/* Grid overlay */}
