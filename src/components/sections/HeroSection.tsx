@@ -8,7 +8,7 @@ const HeroSection = () => {
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
         }}>
-            <div className=" flex xl:flex-row  flex-col justify-between w-[90%] xl:max-w-7xl mx-auto xl:mt-12">
+            <div className=" flex xl:flex-row lg:flex-row  flex-col justify-between w-[90%] lg:w-[80%] xl:max-w-7xl mx-auto xl:mt-12">
                 <div className=" flex flex-col items-start justify-start mt-14">
                     <div className=" flex flex-row items-center justify-center gap-x-2 bg-[#0E0E0E] border border-[#4F4F4F] xl:px-3 px-2 py-1 rounded-full">
                         <img src={images.logo.primary} alt="Monita Logo" className="xl:w-[30px] w-[20px]" />
@@ -51,8 +51,8 @@ const HeroSection = () => {
 
                     </div>
                 </div>
-                <div className="xl:w-[50%] w-full flex flex-col justify-center items-center mt-10 ">
-                    <img src={images.image.heroImage} className=" w-[500px]" alt="" />
+                <div className="xl:w-[50%] lg:w-[40%] w-full flex flex-col justify-end items-end mt-10 ">
+                    <img src={images.image.heroImage} className=" xl:w-[500px] lg:w-[400px]" alt="" />
                 </div>
             </div>
             <div className=" flex flex-col justify-center items-center mx-auto gap-y-4">

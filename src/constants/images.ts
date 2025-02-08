@@ -17,6 +17,9 @@ import quoteIcon from "../assets/icons/quoteIcon.svg";
 import testimoBg from "../assets/images/TestimoBg.png";
 import bRifhtIcon from "../assets/icons/arrow-small-right.svg";
 import bLeftIcon from "../assets/icons/arrow-small-left.svg";
+import signupMockup from "../assets/images/signupMockup.png";
+import connectorLine1 from "../assets/icons/Connector line1.svg";
+import connsectorLine2 from "../assets/icons/Connector line2.svg";
 
 export const images = {
   logo: {
@@ -28,8 +31,11 @@ export const images = {
   mockups: {
     featMockup,
     cardMockup,
+    signupMockup,
   },
   icon: {
+    connectorLine1,
+    connsectorLine2,
     arrowRight,
     appleandGplay,
     tundIcon,

@@ -74,9 +74,6 @@ const TestimonialSection = () => {
                         </div>
                     </div>
 
-
-
-
                 </div>
                 {/* navigation toggle here  */}
                 <div className=" w-[90%] justify-end items-end hidden lg:flex flex-row mb-14">
