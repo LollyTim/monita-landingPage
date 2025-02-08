@@ -34,46 +34,46 @@ const TestimonialSection = () => {
 
                 {/* testimonials cards here  */}
                 <div className=" flex lg:flex-row flex-col gap-10 mt-14 mb-10">
-                    <div className="p-10 bg-[#010101] rounded-3xl border border-[#282828]">
-                        <div className=" flex flex-col gap-4 w-[280px]   ">
-                            <img src={images.icon.quoteIcon} alt=" quote Icon " className=" w-10 h-10" />
-                            <p className=" text-white font-normal xl:text-[18px] text-[16px] max-w-[250px] 2xl:max-w-[314px]"> I like getting the SMS & knowing the jobs done. I often refer to it, “hope you get a ping today!” because my product</p>
-                            <div className=" flex flex-row gap-2 items-center">
-                                <div className=" w-16 h-16 rounded-full bg-gray-400"></div>
-                                <div className=" flex flex-col gap-[1px]">
-                                    <h3 className=" text-white">Mke Torello</h3>
-                                    <p className=" text-xs text-white">CEO if Initech</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="p-10 bg-[#010101] rounded-3xl border border-[#282828]">
-                        <div className=" flex flex-col gap-4 w-[280px]   ">
-                            <img src={images.icon.quoteIcon} alt=" quote Icon " className=" w-10 h-10" />
-                            <p className=" text-white font-normal xl:text-[18px] text-[16px] max-w-[250px] 2xl:max-w-[314px]"> I like getting the SMS & knowing the jobs done. I often refer to it, “hope you get a ping today!” because my product</p>
-                            <div className=" flex flex-row gap-2 items-center">
-                                <div className=" w-16 h-16 rounded-full bg-gray-400"></div>
-                                <div className=" flex flex-col gap-[1px]">
-                                    <h3 className=" text-white">Mke Torello</h3>
-                                    <p className=" text-xs text-white">CEO if Initech</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="p-10 bg-[#010101] rounded-3xl border border-[#282828]">
-                        <div className=" flex flex-col gap-4 w-[280px]   ">
-                            <img src={images.icon.quoteIcon} alt=" quote Icon " className=" w-10 h-10" />
-                            <p className=" text-white font-normal xl:text-[18px] text-[16px] max-w-[250px] 2xl:max-w-[314px]"> I like getting the SMS & knowing the jobs done. I often refer to it, “hope you get a ping today!” because my product</p>
-                            <div className=" flex flex-row gap-2 items-center">
-                                <div className=" w-16 h-16 rounded-full bg-gray-400"></div>
-                                <div className=" flex flex-col gap-[1px]">
-                                    <h3 className=" text-white">Mke Torello</h3>
-                                    <p className=" text-xs text-white">CEO if Initech</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
+                    <div className="p-10 lg:p-8 bg-[#010101] rounded-3xl border border-[#282828]">
+                        <div className=" flex flex-col gap-4 lg:w-[260px] w-[280px]   ">
+                            <img src={images.icon.quoteIcon} alt=" quote Icon " className=" w-10 h-10" />
+                            <p className=" text-white font-normal xl:text-[18px] text-[16px] max-w-[250px] xl:max-w-[230px] 2xl:max-w-[314px]"> I like getting the SMS & knowing the jobs done. I often refer to it, “hope you get a ping today!” because my product</p>
+                            <div className=" flex flex-row gap-2 items-center">
+                                <div className=" w-16 h-16 rounded-full bg-gray-400"></div>
+                                <div className=" flex flex-col gap-[1px]">
+                                    <h3 className=" text-white">Mke Torello</h3>
+                                    <p className=" text-xs text-white">CEO if Initech</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-10 lg:p-8 bg-[#010101] rounded-3xl border border-[#282828]">
+                        <div className=" flex flex-col gap-4 lg:w-[260px] w-[280px]   ">
+                            <img src={images.icon.quoteIcon} alt=" quote Icon " className=" w-10 h-10" />
+                            <p className=" text-white font-normal xl:text-[18px] text-[16px] max-w-[250px] xl:max-w-[230px] 2xl:max-w-[314px]"> I like getting the SMS & knowing the jobs done. I often refer to it, “hope you get a ping today!” because my product</p>
+                            <div className=" flex flex-row gap-2 items-center">
+                                <div className=" w-16 h-16 rounded-full bg-gray-400"></div>
+                                <div className=" flex flex-col gap-[1px]">
+                                    <h3 className=" text-white">Mke Torello</h3>
+                                    <p className=" text-xs text-white">CEO if Initech</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="p-10 lg:p-8 bg-[#010101] rounded-3xl border border-[#282828]">
+                        <div className=" flex flex-col gap-4 lg:w-[260px] w-[280px]   ">
+                            <img src={images.icon.quoteIcon} alt=" quote Icon " className=" w-10 h-10" />
+                            <p className=" text-white font-normal xl:text-[18px] text-[16px] max-w-[250px] xl:max-w-[230px] 2xl:max-w-[314px]"> I like getting the SMS & knowing the jobs done. I often refer to it, “hope you get a ping today!” because my product</p>
+                            <div className=" flex flex-row gap-2 items-center">
+                                <div className=" w-16 h-16 rounded-full bg-gray-400"></div>
+                                <div className=" flex flex-col gap-[1px]">
+                                    <h3 className=" text-white">Mke Torello</h3>
+                                    <p className=" text-xs text-white">CEO if Initech</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 {/* navigation toggle here  */}
                 <div className=" w-[90%] justify-end items-end hidden lg:flex flex-row mb-14">

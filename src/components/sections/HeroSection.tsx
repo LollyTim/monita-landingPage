@@ -2,13 +2,13 @@ import { images } from "../../constants/images";
 
 const HeroSection = () => {
     return (
-        <div className="w-full min-h-[105vh]" style={{
+        <div className="w-full min-h-[105vh] lg:min-h-[90vh]" style={{
             backgroundImage: `url(${images.image.bgImage})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
         }}>
-            <div className=" flex xl:flex-row lg:flex-row  flex-col justify-between w-[90%] lg:w-[80%] xl:max-w-7xl mx-auto xl:mt-12">
+            <div className=" flex xl:flex-row lg:flex-row  flex-col justify-between w-[90%] lg:w-[80%] xl:max-w-7xl mx-auto lg:mt-14 xl:mt-12">
                 <div className=" flex flex-col items-start justify-start mt-14">
                     <div className=" flex flex-row items-center justify-center gap-x-2 bg-[#0E0E0E] border border-[#4F4F4F] xl:px-3 px-2 py-1 rounded-full">
                         <img src={images.logo.primary} alt="Monita Logo" className="xl:w-[30px] w-[20px]" />
@@ -34,24 +34,24 @@ const HeroSection = () => {
                         </p>
                         <div className=" w-full flex flex-row gap-5 justify-start items-center mt-7">
 
-                            <div className=" flex flex-row bg-white py-3 lg:gap-x-2 lg:py-2 gap-x-2 lg:px-3 px-2 rounded-full justify-center items-center xl:w-[180px] w-[130px] xl:h-fit h-[50px] ">
-                                <p className=" text-black xl:text-lg text-[11px] font-medium">Get Started</p>
-                                <div className=" xl:w-[50px] xl:h-[50px] w-[34px] h-[34px] bg-black rounded-full justify-center items-center flex flex-col">
+                            <div className=" flex flex-row bg-white py-3 lg:gap-x-2 lg:py-2 gap-x-2 lg:px-3 px-2 rounded-full justify-center items-center lg:w-[180px] w-[130px] lg:h-fit h-[50px] ">
+                                <p className=" text-black lg:text-lg text-[11px] font-medium">Get Started</p>
+                                <div className=" lg:w-[50px] lg:h-[50px] w-[34px] h-[34px] bg-black rounded-full justify-center items-center flex flex-col">
                                     <img src={images.icon.arrowRight} alt="" className="w-[10px] h-[10px]" />
                                 </div>
 
                             </div>
-                            <div className=" flex flex-row bg-[#CEEF08] xl:py-5 py-2 xl:gap-x-2 gap-x-2 xl:px-6 px-2 rounded-full justify-center items-center xl:w-[250px] w-[180px] xl:h-fit h-[50px] ">
+                            <div className=" flex flex-row bg-[#CEEF08] lg:py-5 py-2 lg:gap-x-2 gap-x-2 lg:px-6 px-2 rounded-full justify-center items-center lg:w-[250px] w-[180px] lg:h-fit h-[50px] ">
                                 <img src={images.icon.appleandGplay} alt=" apple and google play icon" className=" lg:w-[40px] w-[30px] " />
 
-                                <p className=" text-black xl:text-[18px] text-[11px] font-medium">Download the App</p>
+                                <p className=" text-black lg:text-[18px] text-[11px] font-medium">Download the App</p>
 
                             </div>
                         </div>
 
                     </div>
                 </div>
-                <div className="xl:w-[50%] lg:w-[40%] w-full flex flex-col justify-end items-end mt-10 ">
+                <div className="xl:w-[50%] w-full flex flex-col justify-end items-end mt-10 ">
                     <img src={images.image.heroImage} className=" xl:w-[500px] lg:w-[400px]" alt="" />
                 </div>
             </div>

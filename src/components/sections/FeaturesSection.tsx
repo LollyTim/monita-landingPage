@@ -32,7 +32,7 @@ const FeaturesSection = () => {
                 </div>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 w-full mt-20 mb-20 px-4 lg:px-0'>
                     {/* Bill Payment Card - Full height on left */}
-                    <div className='bg-[#0E0E0E] border border-[#282828] rounded-[20px] py-6 lg:py-8 px-4 lg:px-6 h-[540px] lg:h-[900px] lg:w-[620px] w-full'
+                    <div className='bg-[#0E0E0E] border border-[#282828] rounded-[20px] py-6 lg:py-8 px-4 lg:px-6 h-[540px] lg:h-[780px] lg:w-[520px] w-full'
                         style={{
                             backgroundImage: `url(${images.image.featBG})`,
                             backgroundSize: 'cover',
@@ -56,7 +56,7 @@ const FeaturesSection = () => {
                                 <img
                                     src={images.mockups.featMockup}
                                     alt="bill payment mockup"
-                                    className='w-[85%] lg:w-[86%] mt-auto object-contain'
+                                    className='w-[85%] lg:w-[80%] mt-auto object-contain'
                                 />
                             </div>
                         </div>
@@ -65,7 +65,7 @@ const FeaturesSection = () => {
                     {/* Right column with two cards */}
                     <div className='flex flex-col gap-6 justify-between items-end'>
                         {/* eSim Card */}
-                        <div className='bg-[#0E0E0E] border border-[#282828] rounded-[20px] p-6 lg:p-8 h-[240px] lg:h-[420px] w-full lg:w-[620px] justify-center flex flex-col'
+                        <div className='bg-[#0E0E0E] border border-[#282828] rounded-[20px] p-6 lg:p-8 h-[240px] lg:h-[355px] w-full lg:w-[520px] justify-center flex flex-col'
                             style={{
                                 backgroundImage: `url(${images.image.featBG})`,
                                 backgroundSize: '150%',
@@ -89,7 +89,7 @@ const FeaturesSection = () => {
                         </div>
 
                         {/* One Card - Maintaining flex row */}
-                        <div className='bg-[#0E0E0E] border border-[#282828] rounded-[20px] p-6 lg:p-8 h-[240px] lg:h-[420px] w-full lg:w-[620px]'
+                        <div className='bg-[#0E0E0E] border border-[#282828] rounded-[20px] p-6 lg:p-8 h-[240px] lg:h-[355px] w-full lg:w-[520px]'
                             style={{
                                 backgroundImage: `url(${images.image.featBG})`,
                                 backgroundSize: '150%',

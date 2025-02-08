@@ -129,8 +129,10 @@ const HowItWorksSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-center mx-auto mt-20 px-4 lg:px-0">
-                {/* Step 1 */}
+
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center justify-center mx-auto mt-20 px-4 lg:px-0 pb-20">
+                {/* Step 3 */}
+
                 <div className="group flex flex-col gap-5 items-start bg-[#0E0E0E] p-6 lg:p-10 border border-[#202122] rounded-3xl relative overflow-hidden transition-all duration-300 w-full lg:w-auto">
                     {/* Inner glow div */}
                     <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -178,7 +180,7 @@ const HowItWorksSection = () => {
 
 
 
-                {/* Step 2 */}
+                {/* Step 4 */}
                 <div className="group flex flex-col gap-5 items-start bg-[#0E0E0E] p-6 lg:p-10 border border-[#202122] rounded-3xl relative overflow-hidden transition-all duration-300 w-full lg:w-auto mt-8 lg:mt-0">
                     {/* Inner glow div */}
                     <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
