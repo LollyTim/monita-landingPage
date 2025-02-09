@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const DownloadMobileAppSection = () => {
     return (
         <div className="w-full bg-[#000000] py-20">
-            <div className="mx-auto flex flex-col md:flex-row rounded-3xl w-[90%] md:w-[80%] p-5 py-10 md:p-10 justify-start lg:justify-center items-center h-[600px] md:h-[461px] overflow-hidden"
+            <div className="mx-auto flex flex-col md:flex-row rounded-3xl w-[90%] md:w-[80%] p-5 py-10 md:p-10 justify-start lg:justify-center items-center h-[630px] md:h-[461px] overflow-hidden"
                 style={{
                     backgroundImage: `url("${images.image.mobileAppSecBg}")`,
                     backgroundSize: "cover",
