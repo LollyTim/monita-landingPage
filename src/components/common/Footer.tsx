@@ -8,7 +8,7 @@ const Footer = () => {
                 background: "linear-gradient(225deg, rgba(187, 213, 35, 0.15) 0%, #000000 35%)"
             }}
         >
-            {/* Removed the duplicate gradient overlay since we don't need it anymore */}
+
 
             <div className="flex flex-col md:flex-row justify-between items-start w-[90%] lg:w-[80%] mx-auto space-y-8 md:space-y-0 relative z-10">
                 {/* Logo and Description */}
