@@ -3,7 +3,7 @@ import monitaLogo from "../assets/icons/monita-logo.svg";
 import bgImage from "../assets/images/Monita 1.png";
 import arrowRight from "../assets/icons/arrowRight.png";
 import appleandGplay from "../assets/icons/apple-play.png";
-import heroImage from "../assets/images/heroImage1.png";
+import heroImage from "../assets/images/mobileappMockup.png";
 import pcidssLogo from "../assets/images/pcidssLogo.png";
 import ndpcLogo from "../assets/images/ndpcLogo.png";
 import tundIcon from "../assets/icons/lighting.png";
