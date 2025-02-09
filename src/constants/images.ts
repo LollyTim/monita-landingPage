@@ -26,6 +26,14 @@ import fundScreenMockup from "../assets/images/fundWalletMockup.png";
 import greenBg from "../assets/images/greenBg.png";
 import shildImage from "../assets/images/Shield.png";
 import thundIconWhite from "../assets/icons/thundIconW.svg";
+import mobileAppSecBg from "../assets/images/downlooadSectionBg.png";
+import servicesImg from "../assets/images/services.png";
+import monitaSuccess from "../assets/images/monitaSuccess.png";
+import instagramIcon from "../assets/icons/instagramIcon.svg";
+import linkedinIcon from "../assets/icons/linkedinIcon.svg";
+import facebookIcon from "../assets/icons/facebookIcon.svg";
+import tiktockIcon from "../assets/icons/tiktockIcon.svg";
+import xIcon from "../assets/icons/xIcon.svg";
 
 export const images = {
   logo: {
@@ -55,8 +63,16 @@ export const images = {
     quoteIcon,
     bLeftIcon,
     bRifhtIcon,
+    instagramIcon,
+    linkedinIcon,
+    facebookIcon,
+    tiktockIcon,
+    xIcon,
   },
   image: {
+    monitaSuccess,
+    servicesImg,
+    mobileAppSecBg,
     featBG,
     shildImage,
     bgImage: bgImage,

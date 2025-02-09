@@ -61,7 +61,7 @@ const HowItWorksSection = () => {
                         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
                         <div className="mx-auto relative z-10">
-                            <img src={images.mockups.signupMockup} alt="" className="flex mt-[450px] w-full lg:w-[300px]" />
+                            <img src={images.mockups.signupMockup} alt="" className="flex xl:mt-[450px] mt-[350px] w-[240px] lg:w-[300px]" />
                         </div>
 
                         {/* Grid overlay */}
@@ -115,7 +115,7 @@ const HowItWorksSection = () => {
                         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
                         <div className="mx-auto relative z-10">
-                            <img src={images.mockups.verifyScreenMockup} alt="" className="flex mt-[450px] w-full lg:w-[300px]" />
+                            <img src={images.mockups.verifyScreenMockup} alt="" className="flex xl:mt-[450px] mt-[350px] w-[240px] lg:w-[300px]" />
                         </div>
 
                         {/* Grid overlay */}
@@ -164,7 +164,7 @@ const HowItWorksSection = () => {
                         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
                         <div className="mx-auto relative z-10">
-                            <img src={images.mockups.fundScreenMockup} alt="" className="flex mt-[450px] w-full lg:w-[300px]" />
+                            <img src={images.mockups.fundScreenMockup} alt="" className="flex xl:mt-[450px] mt-[350px] w-[240px] lg:w-[300px]" />
                         </div>
 
                         {/* Grid overlay */}
@@ -216,7 +216,7 @@ const HowItWorksSection = () => {
                         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
                         <div className="mx-auto relative z-10">
-                            <img src={images.mockups.cardScreenMockup} alt="" className="flex mt-[450px] w-full lg:w-[300px]" />
+                            <img src={images.mockups.cardScreenMockup} alt="" className="flex xl:mt-[450px] mt-[350px] w-[240px] lg:w-[300px]" />
                         </div>
 
                         {/* Grid overlay */}
