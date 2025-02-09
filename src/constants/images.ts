@@ -34,6 +34,8 @@ import linkedinIcon from "../assets/icons/linkedinIcon.svg";
 import facebookIcon from "../assets/icons/facebookIcon.svg";
 import tiktockIcon from "../assets/icons/tiktockIcon.svg";
 import xIcon from "../assets/icons/xIcon.svg";
+import appleIcon from "../assets/icons/appleIcon.svg";
+import playstoreIcon from "../assets/icons/playstoreIcon.svg";
 
 export const images = {
   logo: {
@@ -68,6 +70,8 @@ export const images = {
     facebookIcon,
     tiktockIcon,
     xIcon,
+    appleIcon,
+    playstoreIcon,
   },
   image: {
     monitaSuccess,
