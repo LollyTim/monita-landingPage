@@ -9,7 +9,7 @@ import TestimonialSection from "./components/sections/TestimonialSection";
 
 const App = () => {
   return (
-    <div className=" h-full w-full bg-[#000000]">
+    <div className=" h-full w-full bg-[#000000] overflow-hidden">
       {/* <div></div> */}
       <NavBar />
       <HeroSection />
