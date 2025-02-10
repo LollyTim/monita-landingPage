@@ -8,10 +8,37 @@
   src: url("./assets/fonts/MuseoModerno-Bold.ttf") format("woff2");
 }
 
+@font-face {
+  font-family: PoppinsBold;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("./assets/fonts/Poppins-Bold.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: PoppinsMedium;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("./assets/fonts/Poppins-Medium.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: PoppinsRegular;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("woff2");
+}
+
 @theme {
   --color-gradient: linear-gradient(97.46deg, #FFFFFF 4.79%, #FFF5D5 25.87%, #ECFFB9 47.72%, #CEEF0A 74.55%);
 }
 
 @theme {
   --font-MuseoModerno: "MuseoModerno", sans-serif;
+  --font-poppinsMedium: "PoppinsMedium", sans-serif;
+  --font-poppinsBold: "PoppinsBold", sans-serif;
+  --font-poppinsRegular: "PoppinsRegular", sans-serif;
 }
