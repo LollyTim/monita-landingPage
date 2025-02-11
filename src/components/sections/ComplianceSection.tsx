@@ -22,7 +22,7 @@ const ComplianceSection = () => {
                 </div>
 
                 {/* Content Section */}
-                <div className="w-full lg:w-[60%]  xl:w-[60%] flex flex-col items-start gap-4 md:gap-6">
+                <div className="w-full lg:w-[60%] xl:w-[60%] flex flex-col items-start gap-4 md:gap-6">
                     {/* Compliance Label */}
                     <div className="flex items-center gap-2">
                         <img
@@ -30,8 +30,8 @@ const ComplianceSection = () => {
                             alt="lightning icon"
                             className="h-3 w-3 lg:h-4 lg:w-4"
                         />
-                        <p className="text-xs lg:text-sm text-white uppercase font-bold tracking-wider">
-                            Compliants
+                        <p className="text-xs lg:text-[12px] text-white uppercase font-bold tracking-wider font-poppinsBold">
+                            compliance
                         </p>
                     </div>
 
@@ -41,7 +41,7 @@ const ComplianceSection = () => {
                     </h1>
 
                     {/* Description */}
-                    <p className="text-sm sm:text-base lg:text-lg xl:w-lg text-white leading-relaxed">
+                    <p className="text-sm sm:text-base lg:text-[16px] text-white leading-relaxed font-poppinsRegular lg:w-[580px] xl:w-[600px] 2xl:w-[649px]">
                         At Monita, your safety is our priority. We comply with key regulations like NDPC and PCI DSS, partner with trusted, insured banks, and display our certifications to ensure secure, reliable, and transparent financial services you can trust.
                     </p>
                 </div>

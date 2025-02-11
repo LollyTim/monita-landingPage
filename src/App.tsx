@@ -1,25 +1,22 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from "./components/common/Footer";
 import NavBar from "./components/common/NavBar";
-import ComplianceSection from "./components/sections/ComplianceSection";
-import DownloadMobileAppSection from "./components/sections/DownloadMobileAppSection";
-import FeaturesSection from "./components/sections/FeaturesSection";
-import HeroSection from "./components/sections/HeroSection";
-import HowItWorksSection from "./components/sections/HowItWorksSection";
-import TestimonialSection from "./components/sections/TestimonialSection";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound"; // Import the 404 component
 
 const App = () => {
   return (
-    <div className=" h-full w-full bg-[#000000] overflow-hidden">
-      {/* <div></div> */}
-      <NavBar />
-      <HeroSection />
-      <FeaturesSection />
-      <TestimonialSection />
-      <HowItWorksSection />
-      <ComplianceSection />
-      <DownloadMobileAppSection />
-      <Footer />
-    </div>
+    <Router>
+      <div className="h-full w-full bg-[#000000] overflow-hidden">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* Add more routes here as needed */}
+          <Route path="*" element={<NotFound />} /> {/* Catch-all route for 404 */}
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 };
 

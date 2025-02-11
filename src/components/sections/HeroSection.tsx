@@ -1,4 +1,5 @@
 import { images } from "../../constants/images";
+import AnimatedSVG from "../common/AnimatedSVG";
 
 const HeroSection = () => {
     return (
@@ -29,9 +30,15 @@ const HeroSection = () => {
                             Pay Fast.
                             <br /> Live Simple.
                         </h1>
-                        <p className=" font-poppinsRegular text-white xl:w-[530px] w-[290px] xl:text-[24px] lg:text-[22px] lg:w-[530px] text-[16px] mt-6 font-normal">
-                            "Simplify your finances with Monita - secure, fast, and reliable."
-                        </p>
+                        <div className="xl:w-[530px] w-[290px] lg:w-[530px] relative">
+
+                            <p className=" font-poppinsRegular text-white  xl:text-[24px] lg:text-[22px] text-[16px] mt-6 font-normal">
+                                "Simplify your finances with Monita - secure, fast, and reliable."
+                            </p>
+                            <div className=" absolute lg:left-[230px] left-[220px] top-[21px] lg:top-[40px] mb-10 z-40">
+                                <AnimatedSVG />
+                            </div>
+                        </div>
                         <div className=" w-full flex flex-row gap-5 justify-start items-center mt-7">
 
                             <div className=" flex flex-row bg-white py-3 lg:gap-x-6 lg:py-2 gap-x-2 lg:px-3 px-2 rounded-full justify-center items-center lg:w-[235px] w-[130px] lg:h-fit h-[50px] ">
