@@ -2,7 +2,7 @@ import { images } from "../../constants/images";
 
 const HowItWorksSection = () => {
     return (
-        <div className="w-full bg-[#000000]">
+        <div className="w-full bg-[#080808] py-20">
             <div className='flex flex-col justify-center items-center gap-4 lg:gap-6 px-4 lg:px-0'>
                 <div className='flex flex-row gap-2 justify-center items-center mx-auto lg:mt-10'>
                     <img
