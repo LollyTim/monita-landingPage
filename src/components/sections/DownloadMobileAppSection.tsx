@@ -21,7 +21,7 @@ const DownloadMobileAppSection = () => {
                     </h1>
 
                     {/* Description */}
-                    <p className="text-sm md:text-base lg:text-[15px] w-fit lg:w-[460px] text-white leading-relaxed">
+                    <p className="text-sm md:text-base lg:text-[15px] w-fit lg:w-[460px] font-poppinsRegular text-white leading-relaxed">
                         Experience the convenience of managing your finances with Monita - Your trusted partner for fast, secure, and reliable payments. Whether you're transferring funds, paying bills, or shopping, Monita ensures seamless transactions, unmatched reliability, and peace of mind.
                     </p>
 
@@ -29,11 +29,11 @@ const DownloadMobileAppSection = () => {
                     <div className="flex flex-row justify-center items-center gap-3.5">
                         <div className="flex flex-row bg-[#CEEF08] py-2 md:py-3 lg:py-5 gap-x-2 px-4 md:px-4 rounded-full justify-center items-center w-[130px] md:w-[200px] lg:w-[200px] h-[50px]">
                             <img src={images.icon.appleIcon} alt="apple and google play icon" className="w-[20px] md:w-[20px]" />
-                            <p className="text-black text-[11px] md:text-[14px] lg:text-[18px] font-medium">Apple Store</p>
+                            <p className="text-black text-[11px] md:text-[14px] lg:text-[18px] font-medium font-poppinsMedium">Apple Store</p>
                         </div>
                         <div className="flex flex-row bg-[#CEEF08] py-2 md:py-3 lg:py-5 gap-x-2 px-4 md:px-6 rounded-full justify-center items-center w-[130px] md:w-[200px] lg:w-[200px] h-[50px]">
                             <img src={images.icon.playstoreIcon} alt="apple and google play icon" className="w-[20px] md:w-[20px]" />
-                            <p className="text-black text-[11px] md:text-[14px] lg:text-[18px] font-medium">Google Play</p>
+                            <p className="text-black text-[11px] md:text-[14px] lg:text-[18px] font-medium font-poppinsMedium">Google Play</p>
                         </div>
                     </div>
                 </div>
@@ -42,10 +42,10 @@ const DownloadMobileAppSection = () => {
                 <div className="flex justify-center relative mt-10 md:mt-0 md:justify-end">
                     <motion.div
                         animate={{
-                            y: [0, -20, 0],
+                            y: [1, -20, 0],
                         }}
                         transition={{
-                            duration: 1,
+                            duration: 1.99,
                             repeat: Infinity,
                             ease: "easeInOut"
                         }}
