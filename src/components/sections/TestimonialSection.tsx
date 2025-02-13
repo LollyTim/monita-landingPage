@@ -79,7 +79,7 @@ const TestimonialSection = () => {
 
     return (
         <div
-            className="w-full bg-[#000000] my-9"
+            className="w-full bg-[#000000] py-9"
             style={{
                 backgroundImage: `url("${images.image.testimoBg}")`,
                 backgroundRepeat: 'no-repeat',

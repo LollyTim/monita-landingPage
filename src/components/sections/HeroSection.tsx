@@ -12,7 +12,7 @@ const HeroSection = () => {
                 backgroundRepeat: 'no-repeat',
             }}
         >
-            <div className="flex xl:flex-row lg:flex-row flex-col justify-between w-[90%] lg:w-[90%] xl:max-w-7xl mx-auto lg:mt-14 xl:mt-12">
+            <div className="flex xl:flex-row lg:flex-row flex-col justify-between w-[90%] lg:w-[90%] xl:max-w-7xl mx-auto lg:pt-14 xl:pt-12">
                 <div className="flex flex-col items-start justify-start mt-14">
                     <div className="flex flex-row items-center justify-center gap-x-2 bg-[#0E0E0E] border border-[#4F4F4F] xl:px-3 px-2 py-1 rounded-full">
                         <img
@@ -81,21 +81,21 @@ const HeroSection = () => {
             </div>
             <div className="flex flex-col justify-center items-center mx-auto gap-y-4">
                 <div className="flex flex-row gap-x-5 xl:mt-20 mt-16 justify-center items-center">
-                    <p className="text-[15px] font-medium text-[#C4C4C4] font-poppinsMedium">Fully licensed by</p>
-                    <p className="text-[12px] font-medium text-[#C4C4C4] font-poppinsMedium">X</p>
-                    <p className="text-[15px] font-medium text-[#C4C4C4] font-poppinsMedium">Backed by</p>
+                    <p className="text-[15px] font-medium text-[#C4C4C4] font-poppinsRegular">Fully licensed by</p>
+                    <p className="text-[12px] font-medium text-[#C4C4C4] font-poppinsRegular">X</p>
+                    <p className="text-[15px] font-medium text-[#C4C4C4] font-poppinsRegular">Backed by</p>
                 </div>
-                <div className="flex flex-row gap-2.5">
+                <div className="flex flex-row gap-4">
                     <img
                         src={images.logo.pcidssLogo}
                         alt="PCI DSS Logo"
-                        className="xl:w-[150px] w-[100px]"
+                        className="xl:w-[200px] w-[100px]"
                         loading="lazy" // Lazy load non-critical logo
                     />
                     <img
                         src={images.logo.ndpcLogo}
                         alt="NDPC Logo"
-                        className="xl:w-[150px] w-[100px]"
+                        className="xl:w-[200px] w-[100px]"
                         loading="lazy" // Lazy load non-critical logo
                     />
                 </div>

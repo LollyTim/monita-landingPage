@@ -27,11 +27,11 @@ const DownloadMobileAppSection = () => {
 
                     {/* Buttons */}
                     <div className="flex flex-row justify-center items-center gap-3.5">
-                        <div className="flex flex-row bg-[#CEEF08] py-2 md:py-3 lg:py-5 gap-x-2 px-4 md:px-4 rounded-full justify-center items-center w-[130px] md:w-[200px] lg:w-[200px] h-[50px]">
+                        <div className="flex flex-row bg-[#CEEF0A] py-2 md:py-3 lg:py-5 gap-x-2 px-4 md:px-4 rounded-full justify-center items-center w-[130px] md:w-[200px] lg:w-[200px] h-[50px]">
                             <img src={images.icon.appleIcon} alt="apple and google play icon" className="w-[20px] md:w-[20px]" />
                             <p className="text-black text-[11px] md:text-[14px] lg:text-[18px] font-medium font-poppinsMedium">Apple Store</p>
                         </div>
-                        <div className="flex flex-row bg-[#CEEF08] py-2 md:py-3 lg:py-5 gap-x-2 px-4 md:px-6 rounded-full justify-center items-center w-[130px] md:w-[200px] lg:w-[200px] h-[50px]">
+                        <div className="flex flex-row bg-[#CEEF0A] py-2 md:py-3 lg:py-5 gap-x-2 px-4 md:px-6 rounded-full justify-center items-center w-[130px] md:w-[200px] lg:w-[200px] h-[50px]">
                             <img src={images.icon.playstoreIcon} alt="apple and google play icon" className="w-[20px] md:w-[20px]" />
                             <p className="text-black text-[11px] md:text-[14px] lg:text-[18px] font-medium font-poppinsMedium">Google Play</p>
                         </div>

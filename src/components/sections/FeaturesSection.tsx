@@ -2,7 +2,7 @@ import { images } from '../../constants/images'
 
 const FeaturesSection = () => {
     return (
-        <div className=' w-full bg-[#000000] my-10'>
+        <div className=' w-full bg-[#000000] my-20'>
             <div className=' w-[90%] xl:max-w-7xl mx-auto justify-center items-center flex flex-col '>
                 <div className='flex flex-col justify-center items-center gap-4 lg:gap-6 px-4 lg:px-0'>
                     <div className='flex flex-row gap-2 justify-center items-center mx-auto mt-8 lg:mt-10'>
@@ -45,7 +45,7 @@ const FeaturesSection = () => {
                         <div className='flex flex-col gap-4 lg:gap-6'>
                             <div className='flex flex-col gap-3 lg:gap-4 px-4 lg:px-6'>
                                 <span className='text-[#81C041] w-fit text-[10px] lg:text-xs px-3 lg:px-4 py-1.5 lg:py-2 font-poppinsRegular rounded-full border border-[#81C041]'>Fast and easy!</span>
-                                <img src={images.icon.billIcon} alt="bill icon" className='h-6 w-6 lg:h-8 lg:w-8' />
+                                <img src={images.icon.billIcon} alt="bill icon" className='h-6 w-6 lg:h-8 lg:w-10' />
                                 <div className='w-full lg:w-[380px] gap-3 lg:gap-[16px] flex flex-col'>
                                     <h3 className='text-white text-xl lg:text-3xl font-bold font-poppinsBold'>Bill Payment</h3>
                                     <p className='text-white text-xs lg:text-[19.83px] leading-relaxed font-poppinsRegular'>
@@ -79,7 +79,7 @@ const FeaturesSection = () => {
                                 <div>
                                     <span className='text-[#81C041] text-[10px] lg:text-xs px-3 lg:px-4 py-1.5 lg:py-2 rounded-full border border-[#81C041] font-poppinsRegular'>Seamless Connectivity</span>
                                 </div>
-                                <img src={images.icon.eSimIcon} alt="esim icon" className='h-6 w-6 lg:h-6 lg:w-8 lg:mt-6 mt-2' />
+                                <img src={images.icon.eSimIcon} alt="esim icon" className='h-6 w-6 lg:h-8 lg:w-12 lg:mt-6 mt-2' />
                                 <div className='space-y-2 lg:space-y-2'>
                                     <h3 className='text-white text-lg lg:text-[28px] font-bold font-poppinsBold'>eSim</h3>
                                     <p className='text-white text-[11px] lg:text-[16.32px] leading-relaxed w-[240px] lg:w-[380px] font-poppinsRegular'>
@@ -102,10 +102,10 @@ const FeaturesSection = () => {
                             <div className='flex flex-row items-center justify-between h-full'>
                                 <div className='w-[55%] space-y-4 lg:space-y-4'>
                                     <span className='text-[#81C041] text-[10px] lg:text-xs px-3 lg:px-4 py-1.5 lg:py-2 rounded-full border border-[#81C041]'>Global Payments</span>
-                                    <img src={images.icon.cardIcon} alt="card icon" className='h-6 w-6 lg:h-10 lg:w-10 lg:mt-6 mt-4' />
-                                    <div className='space-y-2 lg:space-y-4'>
-                                        <h3 className='text-white text-lg lg:text-3xl font-bold font-poppinsBold'>One Card</h3>
-                                        <p className='text-white text-[11px] lg:text-base leading-relaxed font-poppinsRegular'>
+                                    <img src={images.icon.cardIcon} alt="card icon" className='h-6 w-6 lg:h-8 lg:w-12 lg:mt-8 mt-2' />
+                                    <div className='space-y-2 lg:space-y-2 flex flex-col'>
+                                        <h3 className='text-white text-lg lg:text-[28px] font-bold font-poppinsBold'>One Card</h3>
+                                        <p className='text-white text-[11px] lg:text-[15px] leading-relaxed font-poppinsRegular'>
                                             A Naira card supporting both local and international payments with virtual and physical options.
                                         </p>
                                     </div>
