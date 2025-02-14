@@ -3,7 +3,8 @@ import { images } from "../../../constants/images";
 const RMoneyHero = () => {
     return (
         <div
-            className="w-full h-[85vh]"
+            className="w-full lg:h-[85vh] h-[80vh] justify-start items-start flex "
+
             style={{
                 backgroundImage: `url(${images.image.bgImage})`,
                 backgroundSize: 'cover',
