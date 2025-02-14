@@ -36,6 +36,15 @@ import tiktockIcon from "../assets/icons/tiktockIcon.svg";
 import xIcon from "../assets/icons/xIcon.svg";
 import appleIcon from "../assets/icons/appleIcon.svg";
 import playstoreIcon from "../assets/icons/playstoreIcon.svg";
+import RMoneyHeroImg from "../assets/images/RMoneyHeroImg.png";
+import BTfMockup from "../assets/images/BTfMockup.png";
+import bankIcon from "../assets/icons/BANKiCON.svg";
+import qrIcon from "../assets/icons/qrIcon.svg";
+import OCHeroImg from "../assets/images/ocardheroImg.png";
+import SMSection2Img from "../assets/images/SMSec2Img.png";
+import SMHeroImg from "../assets/images/SMhwroImage.png";
+import BPHeroImg from "../assets/images/billpayHeroImg.png";
+import BPSect2Img from "../assets/images/billpaySec2Img.png";
 
 export const images = {
   logo: {
@@ -51,6 +60,7 @@ export const images = {
     cardScreenMockup,
     verifyScreenMockup,
     fundScreenMockup,
+    BTfMockup,
   },
   icon: {
     thundIconWhite,
@@ -72,8 +82,11 @@ export const images = {
     xIcon,
     appleIcon,
     playstoreIcon,
+    bankIcon,
+    qrIcon,
   },
   image: {
+    RMoneyHeroImg,
     monitaSuccess,
     servicesImg,
     mobileAppSecBg,
@@ -83,6 +96,11 @@ export const images = {
     heroImage,
     greenBg,
     testimoBg,
+    OCHeroImg,
+    SMSection2Img,
+    SMHeroImg,
+    BPSect2Img,
+    BPHeroImg,
   },
 } as const;
 

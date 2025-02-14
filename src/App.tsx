@@ -3,6 +3,10 @@ import Footer from "./components/common/Footer";
 import NavBar from "./components/common/NavBar";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound"; // Import the 404 component
+import ReceiveMoney from './pages/ReceiveMoney';
+import OneCard from './pages/OneCard';
+import SendMoney from './pages/SendMoney';
+import BillPayment from './pages/BillPayment';
 
 const App = () => {
   return (
@@ -11,8 +15,14 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* Add more routes here as needed */}
-          <Route path="*" element={<NotFound />} /> {/* Catch-all route for 404 */}
+          <Route path="/receive-money" element={<ReceiveMoney />} />
+          <Route path="/one-card" element={<OneCard />} />
+          <Route path="/send-money" element={<SendMoney />} />
+          <Route path="/bill-payment" element={<BillPayment />} />
+
+
+
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
