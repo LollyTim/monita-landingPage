@@ -6,7 +6,7 @@ const SMoneyHero = () => {
     return (
         <div>
             <div
-                className="w-full h-[85vh]"
+                className="w-full lg:h-[85vh] h-[80vh] justify-start items-start flex "
                 style={{
                     backgroundImage: `url(${images.image.bgImage})`,
                     backgroundSize: 'cover',
@@ -43,7 +43,7 @@ const SMoneyHero = () => {
                                 <p className="font-poppinsRegular text-white xl:text-[20.3px] lg:text-[22px] text-[16px] mt-6 font-normal">
                                     Send money effortlessly to any local bank account with Monita.
                                 </p>
-                                <div className="absolute lg:left-[220px] left-[220px] top-[80px] lg:top-[35px] mb-10 z-40">
+                                <div className="absolute lg:left-[220px] left-[180px] top-[25px] lg:top-[35px] mb-10 z-40">
                                     <AnimatedSVG />
                                 </div>
                             </div>
