@@ -7,7 +7,7 @@ const OneCardSection2 = () => {
                 {/* Image Section */}
                 <div className="xl:w-[50%] w-full flex justify-center items-center mb-8 xl:mb-0">
                     <img
-                        src={images.image.OCHeroImg}
+                        src={images.image.oneCardSec2}
                         alt="Hero Image"
                         className="w-full max-w-[500px] lg:w-[400px] xl:w-[500px]"
                         loading="eager"

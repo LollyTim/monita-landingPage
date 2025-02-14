@@ -1,7 +1,7 @@
-import { images } from "../../../constants/images"
-import AnimatedSVG from "../../common/AnimatedSVG"
+import { images } from '../../../constants/images'
+import AnimatedSVG from '../../common/AnimatedSVG'
 
-const BillPaymentHero = () => {
+const GiftcardHero = () => {
     return (
         <div
             className="w-full lg:h-[85vh] h-[80vh] justify-start items-start flex "
@@ -19,7 +19,7 @@ const BillPaymentHero = () => {
                             src={images.logo.primary}
                             alt="Monita Logo"
                             className="xl:w-[30px] w-[20px]"
-                            loading="lazy"
+                            loading="lazy" // Lazy load non-critical logo
                         />
                         <h4 className="text-white xl:text-[14px] lg:text-[14px] text-[10px] font-poppinsMedium">
                             Pay Bills, Buy Data, Shop Online - All in One Place!{" "}
@@ -35,7 +35,7 @@ const BillPaymentHero = () => {
                                 backgroundClip: 'text',
                             }}
                         >
-                            Bill Payment
+                            <span className='font-poppinsBold'>G</span>iftcards
                         </h1>
                         <div className="xl:w-[530px] w-[100%] lg:w-[560px] relative">
                             <p className="font-poppinsRegular text-white xl:text-[20.3px] lg:text-[22px] text-[16px] mt-6 font-normal">
@@ -59,7 +59,7 @@ const BillPaymentHero = () => {
                 </div>
                 <div className="xl:w-[50%] w-full flex flex-col justify-center items-end ">
                     <img
-                        src={images.image.BPHeroImg}
+                        src={images.image.GCardHeroImg}
                         alt="Hero Image"
                         className="xl:w-[500px] lg:w-[400px] lg:-mt-7 xl:-mt-14"
                         loading="eager"
@@ -71,4 +71,4 @@ const BillPaymentHero = () => {
     )
 }
 
-export default BillPaymentHero
+export default GiftcardHero

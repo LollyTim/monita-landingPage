@@ -45,6 +45,9 @@ import SMSection2Img from "../assets/images/SMSec2Img.png";
 import SMHeroImg from "../assets/images/SMhwroImage.png";
 import BPHeroImg from "../assets/images/billpayHeroImg.png";
 import BPSect2Img from "../assets/images/billpaySec2Img.png";
+import oneCardSec2 from "../assets/images/oneCardScet2.png";
+import GCardHeroImg from "../assets/images/GCardHeroImg.png";
+import GCardSec2 from "../assets/images/GCardSect2.png";
 
 export const images = {
   logo: {
@@ -101,6 +104,9 @@ export const images = {
     SMHeroImg,
     BPSect2Img,
     BPHeroImg,
+    oneCardSec2,
+    GCardHeroImg,
+    GCardSec2,
   },
 } as const;
 

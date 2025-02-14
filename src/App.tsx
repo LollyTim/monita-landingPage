@@ -7,6 +7,7 @@ import ReceiveMoney from './pages/ReceiveMoney';
 import OneCard from './pages/OneCard';
 import SendMoney from './pages/SendMoney';
 import BillPayment from './pages/BillPayment';
+import GiftCard from './pages/GiftCard';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/one-card" element={<OneCard />} />
           <Route path="/send-money" element={<SendMoney />} />
           <Route path="/bill-payment" element={<BillPayment />} />
+          <Route path="/gift-cards" element={<GiftCard />} />
 
 
 
