@@ -2,7 +2,7 @@ import { images } from "../../../constants/images"
 
 const RMoneyFeatures = () => {
     return (
-        <div className=' w-full bg-[#000000] my-20'>
+        <div className=' w-full bg-[#000000] lg:my-20'>
             <div className=' w-[90%] xl:max-w-7xl mx-auto justify-center items-center flex flex-col '>
 
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 2xl:w-[86%] xl:w-[96%] lg:w-full w-full mt-20 mb-20 px-4 lg:px-0'>
