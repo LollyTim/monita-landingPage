@@ -57,11 +57,11 @@ const NavBar = () => {
                     <div className="relative">
                         <button
                             onClick={toggleFeatures}
-                            className={`font-poppinsMedium text-[15px] leading-[19px] font-medium focus:outline-none flex items-center ${isFeaturesOpen ? 'text-[#CFEF0C]' : 'text-white'}`}
+                            className={`font-poppinsMedium hover:stroke-[#CFEF0C] group text-[15px] leading-[19px] font-medium focus:outline-none flex items-center hover:text-[#CFEF0C] ${isFeaturesOpen ? 'text-[#CFEF0C]' : 'text-white'}`}
                         >
                             Features
                             <svg
-                                className={`w-4 h-4 ml-2 transition-transform ${isFeaturesOpen ? 'transform rotate-180' : ''
+                                className={`w-4 h-4 ml-2 group-hover:stroke-[#CFEF0C] transition-transform ${isFeaturesOpen ? 'transform rotate-180' : ''
                                     }`}
                                 fill="none"
                                 stroke={isFeaturesOpen ? '#CFEF0C' : 'white'}
@@ -77,7 +77,7 @@ const NavBar = () => {
                             </svg>
                         </button>
                         {isFeaturesOpen && (
-                            <div className="absolute mt-5 w-[175px] bg-[#0E0E0E] border border-[#1A1A1A] rounded-lg shadow-lg p-3">
+                            <div className="absolute mt-5 w-[175px] bg-[#0E0E0E] border gap-1.5 flex flex-col border-[#1A1A1A] rounded-lg shadow-lg p-3">
                                 <Link
                                     to="/receive-money"
                                     className={`block px-6 py-3 text-sm text-white hover:bg-[#1A1A1A] font-poppinsMedium rounded-sm text-nowrap ${isBgActive('/receive-money')}`}
@@ -118,14 +118,14 @@ const NavBar = () => {
                     </div>
                     <Link
                         to="/about-us"
-                        className={`font-poppinsMedium text-[15px] leading-[19px] font-medium ${isTextActive('/about-us')}`}
+                        className={`font-poppinsMedium hover:text-[#CFEF0C] text-[15px] leading-[19px] font-medium ${isTextActive('/about-us')}`}
                         onClick={() => setIsFeaturesOpen(false)}
                     >
                         About Us
                     </Link>
                     <Link
                         to="/contact-us"
-                        className={`font-poppinsMedium text-[15px] leading-[19px] font-medium ${isTextActive('/contact-us')}`}
+                        className={`font-poppinsMedium hover:text-[#CFEF0C] text-[15px] leading-[19px] font-medium ${isTextActive('/contact-us')}`}
                         onClick={() => setIsFeaturesOpen(false)}
                     >
                         Contact Us

@@ -1,5 +1,6 @@
 import { images } from "../../constants/images";
 import AnimatedSVG from "../common/AnimatedSVG";
+import { motion } from "framer-motion"
 
 const HeroSection = () => {
     return (
@@ -46,7 +47,7 @@ const HeroSection = () => {
                                 <AnimatedSVG />
                             </div>
                         </div>
-                        <div className="w-full flex flex-row gap-5 justify-start items-center mt-7">
+                        <div className="w-full flex flex-row gap-5 justify-start items-center md:mt-14 mt-10">
                             <div className="flex flex-row bg-white py-3 lg:gap-x-6 lg:py-2 gap-x-2 lg:px-3 px-2 rounded-full justify-center items-center lg:w-[235px] w-[130px] lg:h-fit h-[50px]">
                                 <p className="text-black lg:text-[22px] text-[11px] font-medium font-poppinsMedium text-nowrap">Get Started</p>
                                 <div className="lg:w-[50px] lg:h-[50px] w-[34px] h-[34px] bg-black rounded-full justify-center items-center flex flex-col">
@@ -70,11 +71,28 @@ const HeroSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="xl:w-[50%] w-full flex flex-col justify-end items-end mt-10">
+                <div className="xl:w-[50%] lg:w-[45%] w-full flex flex-col justify-end items-end mt-15 relative">
                     <img
-                        src={images.image.heroImage}
+                        src={images.image.BgandNotif}
                         alt="Hero Image"
-                        className="xl:w-[500px] lg:w-[400px] lg:-mt-7 xl:-mt-14"
+                        className="xl:w-[550px] lg:size-[460px] xl:size-[570px] lg:-mt-7 xl:-mt-14 z-0"
+                        loading="eager" // Prioritize loading the hero image
+                    />
+                    <motion.img
+                        animate={{
+                            y: [1, -18, 0],
+                        }}
+                        transition={{
+                            duration: 1.99,
+                            repeat: Infinity,
+                            ease: "easeInOut"
+                        }}
+                        src={images.image.twoMockups}
+                        alt="Hero Image"
+                        width={500}
+                        height={800}
+
+                        className="xl:w-[500px] lg:w-[400px] lg:size-[480px] xl:size-[570px] w-[300px] size-[373px] justify-center items-center mx-auto absolute z-10 lg:-top-12 xl:-top-14 right-5 object-contain"
                         loading="eager" // Prioritize loading the hero image
                     />
                 </div>

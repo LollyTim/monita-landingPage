@@ -1,9 +1,10 @@
+import { motion } from "framer-motion";
 import { images } from "../../constants/images";
 
 const ComplianceSection = () => {
     return (
         <div
-            className="w-full py-12 md:py-20"
+            className="w-full py-12 md:py-20 justify-center items-center flex"
             style={{
                 backgroundImage: `url("${images.image.greenBg}")`,
                 backgroundPosition: "center",
@@ -13,11 +14,27 @@ const ComplianceSection = () => {
         >
             <div className="container mx-auto xl:w-[90%] px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
                 {/* Shield Image */}
-                <div className="w-full lg:w-[40%] xl:w-[32%] flex justify-center lg:justify-start">
+                <div className="w-full lg:w-[40%] xl:w-[32%] flex justify-center lg:justify-start relative">
                     <img
-                        src={images.image.shildImage}
+                        src={images.image.rotContent}
                         alt="shield image"
-                        className=" w-[90%] sm:w-56 md:w-64 lg:w-auto xl:w-[80%]"
+                        className="w-[90%] sm:w-56 md:w-64 lg:w-auto xl:w-[80%] z-20 absolute -top-6 left-0"
+                    />
+
+                    {/* Rotating Image */}
+                    <motion.img
+                        src={images.image.rotateImg}
+                        alt="shield image"
+                        className="w-[90%] sm:w-56 md:w-64 lg:w-auto xl:w-[82%] z-0"
+                        animate={{ rotate: [0, 0, 60, 60, 120, 120, 180, 180, 240, 240, 300, 300, 360, 360] }} // Stops at each step
+                        transition={{
+                            repeat: Infinity, // Infinite loop
+                            duration: 10, // Total time for full rotation (adjust if needed)
+                            ease: "linear",
+                            times: [
+                                0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875, 1 // Equal pauses at each step
+                            ]
+                        }}
                     />
                 </div>
 

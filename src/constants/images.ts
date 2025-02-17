@@ -48,6 +48,13 @@ import BPSect2Img from "../assets/images/billpaySec2Img.png";
 import oneCardSec2 from "../assets/images/oneCardScet2.png";
 import GCardHeroImg from "../assets/images/GCardHeroImg.png";
 import GCardSec2 from "../assets/images/GCardSect2.png";
+import bg4feat1 from "../assets/images/bgforfeat1.png";
+import bg4featC2 from "../assets/images/bgimgforc22.png";
+import featSideLogo from "../assets/images/featSideImgLOgo.png";
+import rotContent from "../assets/images/shildnorotGroup.png";
+import rotateImg from "../assets/images/rotate.png";
+import twoMockups from "../assets/images/Two mockups.png";
+import BgandNotif from "../assets/images/background and notification.png";
 
 export const images = {
   logo: {
@@ -92,21 +99,28 @@ export const images = {
     RMoneyHeroImg,
     monitaSuccess,
     servicesImg,
+    bg4feat1,
     mobileAppSecBg,
     featBG,
     shildImage,
     bgImage: bgImage,
+    bg4featC2,
     heroImage,
     greenBg,
     testimoBg,
     OCHeroImg,
     SMSection2Img,
+    featSideLogo,
     SMHeroImg,
     BPSect2Img,
     BPHeroImg,
     oneCardSec2,
     GCardHeroImg,
     GCardSec2,
+    rotateImg,
+    rotContent,
+    BgandNotif,
+    twoMockups,
   },
 } as const;
 

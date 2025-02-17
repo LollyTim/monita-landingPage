@@ -1,4 +1,5 @@
 import { images } from '../../constants/images'
+import { motion } from "framer-motion"
 
 const FeaturesSection = () => {
     return (
@@ -23,7 +24,8 @@ const FeaturesSection = () => {
                             WebkitBackgroundClip: 'text',
                             WebkitTextFillColor: 'transparent',
                             backgroundClip: 'text'
-                        }}>
+                        }}
+                    >
                         Tailor-made to your spending taste
                     </h1>
 
@@ -33,19 +35,21 @@ const FeaturesSection = () => {
                 </div>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-6 2xl:w-[86%] xl:w-[96%] lg:w-full w-full mt-20 mb-20 px-4 lg:px-0'>
                     {/* Bill Payment Card - Full height on left */}
-                    <div className='bg-[#0E0E0E] border border-[#282828] rounded-[20px] py-6 lg:py-8 px-4 lg:px-6 h-[540px] lg:h-[780px] lg:w-[520px] w-full'
+                    <motion.div className='bg-[#0E0E0E] hover:bg-[rgba(10, 10, 10, 8.5)] border border-[#282828] rounded-[20px] py-6 lg:py-8 px-4 lg:px-6 h-fit lg:h-fit lg:w-[520px] w-full'
                         style={{
-                            backgroundImage: `url(${images.image.featBG})`,
+                            backgroundImage: `url(${images.image.bg4feat1})`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                             backgroundRepeat: 'no-repeat',
-                            backgroundBlendMode: 'overlay',
                             backgroundColor: 'rgba(10, 10, 10, 5.5)'
-                        }}>
+
+                        }}
+                        whileHover={{ backgroundColor: 'rgba(30, 30, 30, 0.8)' }}
+                    >
                         <div className='flex flex-col gap-4 lg:gap-6'>
                             <div className='flex flex-col gap-3 lg:gap-4 px-4 lg:px-6'>
                                 <span className='text-[#81C041] w-fit text-[10px] lg:text-xs px-3 lg:px-4 py-1.5 lg:py-2 font-poppinsRegular rounded-full border border-[#81C041]'>Fast and easy!</span>
-                                <img src={images.icon.billIcon} alt="bill icon" className='h-6 w-6 lg:h-8 lg:w-10' />
+                                <img src={images.icon.billIcon} alt="bill icon" className='h-6 w-6 lg:h-12 lg:w-12' />
                                 <div className='w-full lg:w-[380px] gap-3 lg:gap-[16px] flex flex-col'>
                                     <h3 className='text-white text-xl lg:text-3xl font-bold font-poppinsBold'>Bill Payment</h3>
                                     <p className='text-white text-xs lg:text-[19.83px] leading-relaxed font-poppinsRegular'>
@@ -57,48 +61,63 @@ const FeaturesSection = () => {
                                 <img
                                     src={images.mockups.featMockup}
                                     alt="bill payment mockup"
-                                    className='w-[85%] lg:w-[80%] mt-auto object-contain'
+                                    className='w-[85%] lg:w-[76%] mt-auto object-contain'
                                 />
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
 
                     {/* Right column with two cards */}
-                    <div className='flex flex-col gap-6 justify-between items-end'>
+                    <motion.div className='flex flex-col gap-6 justify-between items-end'>
                         {/* eSim Card */}
-                        <div className='bg-[#0E0E0E] border border-[#282828] rounded-[20px] p-6 lg:p-8 h-[240px] lg:h-[355px] w-full lg:w-[520px] justify-center flex flex-col'
+                        <motion.div
+                            whileHover={{ backgroundColor: 'rgba(30, 30, 30, 0.8)' }} // Lightened background on hover
+                            className="bg-[#0E0E0E] border border-[#282828] relative overflow-hidden rounded-[20px] p-6 lg:p-8 h-[240px] lg:h-[355px] w-full lg:w-[520px] justify-center flex flex-col 
+    group transition-all duration-300"
                             style={{
-                                backgroundImage: `url(${images.image.featBG})`,
-                                backgroundSize: '150%',
+                                backgroundImage: `url(${images.image.bg4featC2})`,
+                                backgroundSize: '100%',
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',
-                                backgroundBlendMode: 'overlay',
-                                backgroundColor: 'rgba(10, 10, 10, 5.5)'
-                            }}>
-                            <div className='flex flex-col gap-2 lg:gap-4'>
+                                backgroundColor: 'rgba(10, 10, 10, 5.5)',
+                            }}
+                        >
+                            {/* featSideLogo scales smoothly when the parent is hovered */}
+                            <img
+                                src={images.image.featSideLogo}
+                                className="w-32 h-44 absolute right-0 transform transition-transform duration-1000 ease-in-out group-hover:scale-200"
+                                alt="feature side logo"
+                            />
+
+                            <div className="flex flex-col gap-2 lg:gap-4">
                                 <div>
-                                    <span className='text-[#81C041] text-[10px] lg:text-xs px-3 lg:px-4 py-1.5 lg:py-2 rounded-full border border-[#81C041] font-poppinsRegular'>Seamless Connectivity</span>
+                                    <span className="text-[#81C041] text-[10px] lg:text-xs px-3 lg:px-4 py-1.5 lg:py-2 rounded-full border border-[#81C041] font-poppinsRegular">
+                                        Seamless Connectivity
+                                    </span>
                                 </div>
-                                <img src={images.icon.eSimIcon} alt="esim icon" className='h-6 w-6 lg:h-8 lg:w-12 lg:mt-6 mt-2' />
-                                <div className='space-y-2 lg:space-y-2'>
-                                    <h3 className='text-white text-lg lg:text-[28px] font-bold font-poppinsBold'>eSim</h3>
-                                    <p className='text-white text-[11px] lg:text-[16.32px] leading-relaxed w-[240px] lg:w-[380px] font-poppinsRegular'>
+                                <img src={images.icon.eSimIcon} alt="esim icon" className="h-6 w-6 lg:h-8 lg:w-12 lg:mt-6 mt-2" />
+                                <div className="space-y-2 lg:space-y-2">
+                                    <h3 className="text-white text-lg lg:text-[28px] font-bold font-poppinsBold">eSim</h3>
+                                    <p className="text-white text-[11px] lg:text-[16.32px] leading-relaxed w-[240px] lg:w-[380px] font-poppinsRegular">
                                         Monita ensures seamless connectivity with our eSIM technology. Users can activate a digital SIM instantly, enjoy quick setup, and stay connected securely wherever they go.
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </motion.div>
 
                         {/* One Card - Maintaining flex row */}
-                        <div className='bg-[#0E0E0E] border border-[#282828] rounded-[20px] p-6 lg:p-8 h-[240px] lg:h-[355px] w-full lg:w-[520px]'
+                        <motion.div
+                            whileHover={{ backgroundColor: 'rgba(30, 30, 30, 0.8)' }}
+                            className='bg-[#0E0E0E] border border-[#282828] rounded-[20px] p-6 lg:p-8 h-[240px] lg:h-[355px] w-full lg:w-[520px]'
                             style={{
-                                backgroundImage: `url(${images.image.featBG})`,
-                                backgroundSize: '150%',
+                                backgroundImage: `url(${images.image.bg4featC2})`,
+                                backgroundSize: '100%',
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',
-                                backgroundBlendMode: 'overlay',
+                                // backgroundBlendMode: 'overlay',
                                 backgroundColor: 'rgba(10, 10, 10, 5.5)'
                             }}>
+
                             <div className='flex flex-row items-center justify-between h-full'>
                                 <div className='w-[55%] space-y-4 lg:space-y-4'>
                                     <span className='text-[#81C041] text-[10px] lg:text-xs px-3 lg:px-4 py-1.5 lg:py-2 rounded-full border border-[#81C041]'>Global Payments</span>
@@ -118,8 +137,8 @@ const FeaturesSection = () => {
                                     />
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </motion.div>
+                    </motion.div>
                 </div>
 
             </div>
