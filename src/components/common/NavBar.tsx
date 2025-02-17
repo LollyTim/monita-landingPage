@@ -77,7 +77,7 @@ const NavBar = () => {
                             </svg>
                         </button>
                         {isFeaturesOpen && (
-                            <div className="absolute mt-5 w-[175px] bg-[#0E0E0E] border gap-1.5 flex flex-col border-[#1A1A1A] rounded-lg shadow-lg p-3">
+                            <div className="absolute mt-5 w-[175px] bg-[#0E0E0E] border gap-1.5 flex flex-col border-[#1A1A1A] rounded-lg shadow-lg p-3 z-30">
                                 <Link
                                     to="/receive-money"
                                     className={`block px-6 py-3 text-sm text-white hover:bg-[#1A1A1A] font-poppinsMedium rounded-sm text-nowrap ${isBgActive('/receive-money')}`}
