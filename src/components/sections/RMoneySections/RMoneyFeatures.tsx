@@ -55,7 +55,7 @@ const RMoneyFeatures = () => {
                                 </div>
                                 <img src={images.icon.qrIcon} alt="esim icon" className='h-6 w-6 lg:h-8 lg:w-12 lg:mt-6 mt-2' />
                                 <div className='space-y-2 lg:space-y-2'>
-                                    <h3 className='text-white text-lg lg:text-[28px] font-bold font-poppinsBold'>Monita - Monita (Monitag)</h3>
+                                    <h3 className='text-white text-[16px] lg:text-[28px] font-bold font-poppinsBold text-nowrap'>Monita - Monita (Monitag)</h3>
                                     <p className='text-white text-[11px] lg:text-[16.32px] leading-relaxed w-[240px] lg:w-[410px] font-poppinsRegular'>
                                         Monita - Monita transfers let you send money instantly and securely to other Monita users using their unique Monitag ID. It’s fast, convenient, and eliminates the need for account numbers - making transactions simpler than ever.                                    </p>
                                 </div>
@@ -77,7 +77,7 @@ const RMoneyFeatures = () => {
                                     <span className='text-[#81C041] text-[10px] lg:text-xs px-3 lg:px-4 py-1.5 lg:py-2 rounded-full border border-[#81C041]'>Global Payments</span>
                                     <img src={images.icon.cardIcon} alt="card icon" className='h-6 w-6 lg:h-8 lg:w-12 lg:mt-8 mt-2' />
                                     <div className='space-y-2 lg:space-y-2 flex flex-col'>
-                                        <h3 className='text-white text-lg lg:text-[28px] font-bold font-poppinsBold text-nowrap'>Debit/credit cards</h3>
+                                        <h3 className='text-white text-[16px] lg:text-[28px] font-bold font-poppinsBold text-nowrap'>Debit/credit cards</h3>
                                         <p className='text-white text-[11px] lg:text-[15px] leading-relaxed font-poppinsRegular'>
                                             Fund your wallet easily with your debit or credit card. Simply link your card, enter an amount, and enjoy secure, seamless transactions.
                                         </p>
