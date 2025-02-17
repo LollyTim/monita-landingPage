@@ -48,7 +48,7 @@ const HowItWorksSection = () => {
                         Provide your email and phone number, then verify your phone number with an OTP.
                     </p>
                     <div
-                        className="w-full lg:w-[356px] h-[200px] lg:h-[300px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)]"
+                        className="w-full lg:w-[356px] h-[250px] lg:h-[300px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)]"
                         style={{
                             background: `
                                 linear-gradient(0deg, #111111, #111111),
@@ -61,7 +61,7 @@ const HowItWorksSection = () => {
                         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
                         <div className="mx-auto relative z-10">
-                            <img src={images.mockups.signupMockup} alt="" className="flex xl:mt-[230px] mt-[300px] w-[200px] lg:w-[230px]" />
+                            <img src={images.mockups.signupMockup} alt="" className="flex xl:mt-[230px] mt-[230px] w-[200px] lg:w-[230px]" />
                         </div>
 
                         {/* Grid overlay */}
@@ -102,7 +102,7 @@ const HowItWorksSection = () => {
                         Choose a username and password. Submit your BVN and KYC details, complete face and ID verification, and set up a PIN for account management.
                     </p>
                     <div
-                        className="w-full lg:w-[356px] h-[200px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)]"
+                        className="w-full lg:w-[356px] h-[250px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)]"
                         style={{
                             background: `
                                 linear-gradient(0deg, #111111, #111111),
@@ -115,7 +115,7 @@ const HowItWorksSection = () => {
                         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
                         <div className="mx-auto relative z-10">
-                            <img src={images.mockups.verifyScreenMockup} alt="" className="flex xl:mt-[230px] mt-[300px] w-[200px] lg:w-[230px]" />
+                            <img src={images.mockups.verifyScreenMockup} alt="" className="flex xl:mt-[230px] mt-[230px] w-[200px] lg:w-[230px]" />
                         </div>
 
                         {/* Grid overlay */}
@@ -151,7 +151,7 @@ const HowItWorksSection = () => {
                         Add funds to your account to start using Monita’s features.
                     </p>
                     <div
-                        className="w-full lg:w-[356px] h-[200px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)]"
+                        className="w-full lg:w-[356px] h-[250px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)]"
                         style={{
                             background: `
                                 linear-gradient(0deg, #111111, #111111),
@@ -164,7 +164,7 @@ const HowItWorksSection = () => {
                         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
                         <div className="mx-auto relative z-10">
-                            <img src={images.mockups.fundScreenMockup} alt="" className="flex xl:mt-[230px] mt-[300px] w-[200px] lg:w-[230px]" />
+                            <img src={images.mockups.fundScreenMockup} alt="" className="flex xl:mt-[230px] mt-[230px] w-[200px] lg:w-[230px]" />
                         </div>
 
                         {/* Grid overlay */}
@@ -203,7 +203,7 @@ const HowItWorksSection = () => {
                         Access the dashboard, navigate to the Card menu, and apply for a One Card supporting both local and international payments with virtual and physical options.
                     </p>
                     <div
-                        className="w-full lg:w-[356px] h-[200px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)]"
+                        className="w-full lg:w-[356px] h-[250px] lg:h-[279px] relative flex justify-between items-center overflow-hidden rounded-lg group/mockup border border-transparent transition-colors duration-300 group-hover:border-[rgba(206,239,10,0.5)]"
                         style={{
                             background: `
                                 linear-gradient(0deg, #111111, #111111),
@@ -216,7 +216,7 @@ const HowItWorksSection = () => {
                         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200px] lg:w-[280px] h-[120px] lg:h-[200px] opacity-0 group-hover:opacity-10 transition-opacity duration-300 blur-2xl bg-[#CEEF0A] rounded-full" />
 
                         <div className="mx-auto relative z-10">
-                            <img src={images.mockups.cardScreenMockup} alt="" className="flex xl:mt-[230px] mt-[300px] w-[200px] lg:w-[230px]" />
+                            <img src={images.mockups.cardScreenMockup} alt="" className="flex xl:mt-[230px] mt-[230px] w-[200px] lg:w-[230px]" />
                         </div>
 
                         {/* Grid overlay */}
