@@ -92,7 +92,7 @@ const HeroSection = () => {
                         width={500}
                         height={800}
 
-                        className="xl:w-[500px] lg:w-[400px] lg:size-[480px] xl:size-[570px] w-[300px] size-[340px] justify-center items-center mx-auto absolute z-10 lg:-top-12 xl:-top-14 right-5 object-contain"
+                        className="xl:w-[500px] lg:w-[400px] lg:size-[480px] xl:size-[570px] w-[300px] size-[340px] -top-8 justify-center items-center mx-auto absolute z-10 lg:-top-12 xl:-top-14 right-5 object-contain"
                         loading="eager" // Prioritize loading the hero image
                     />
                 </div>
