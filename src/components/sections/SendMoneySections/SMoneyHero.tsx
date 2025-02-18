@@ -47,7 +47,7 @@ const SMoneyHero = () => {
                                     <AnimatedSVG />
                                 </div>
                             </div>
-                            <div className="flex flex-row justify-start items-start mt-9 gap-4.5">
+                            <div className="flex flex-row justify-start items-center mt-9 gap-4.5">
                                 <div className="flex flex-row bg-[#CEEF0A] py-2 md:py-3 lg:py-4 gap-x-2 px-4 md:px-4 rounded-full justify-center items-center w-[130px] md:w-[200px] lg:w-[200px] ">
                                     <img src={images.icon.appleIcon} alt="apple and google play icon" className="w-[16px] md:w-[20px]" />
                                     <p className="text-black text-[11px] md:text-[14px] lg:text-[18px] font-medium font-poppinsMedium">Apple Store</p>

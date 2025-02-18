@@ -8,6 +8,7 @@ import OneCard from './pages/OneCard';
 import SendMoney from './pages/SendMoney';
 import BillPayment from './pages/BillPayment';
 import GiftCard from './pages/GiftCard';
+import AboutUs from './pages/AboutUs';
 
 const App = () => {
   return (
@@ -21,9 +22,7 @@ const App = () => {
           <Route path="/send-money" element={<SendMoney />} />
           <Route path="/bill-payment" element={<BillPayment />} />
           <Route path="/gift-cards" element={<GiftCard />} />
-
-
-
+          <Route path="/about-us" element={<AboutUs />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

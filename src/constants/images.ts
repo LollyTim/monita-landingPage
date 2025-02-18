@@ -55,6 +55,7 @@ import rotContent from "../assets/images/shildnorotGroup.png";
 import rotateImg from "../assets/images/rotate.png";
 import twoMockups from "../assets/images/Two mockups.png";
 import BgandNotif from "../assets/images/background and notification.png";
+import aboutHeroImg from "../assets/images/aboutImg.png";
 
 export const images = {
   logo: {
@@ -121,6 +122,7 @@ export const images = {
     rotContent,
     BgandNotif,
     twoMockups,
+    aboutHeroImg,
   },
 } as const;
 
